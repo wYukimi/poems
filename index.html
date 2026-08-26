@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poems</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="container">
+
+  <section id="library-view" class="view">
+    <header class="site-header">
+      <h1>Poems</h1>
+    </header>
+
+    <ul id="poem-list" class="poem-list" aria-label="List of poems"></ul>
+
+    <p id="poem-count" class="poem-count"></p>
+  </section>
+
+  <section id="poem-view" class="view" hidden>
+    <button id="back-button" class="back-button" aria-label="Back to list">&larr; back</button>
+
+    <article id="poem-content" class="poem-content">
+      <h2 id="poem-title" class="poem-title"></h2>
+      <pre id="poem-text" class="poem-text"></pre>
+    </article>
+  </section>
+
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
